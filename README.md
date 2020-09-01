@@ -1,3 +1,3 @@
 # grid
 grided
-https://lash26.github.io/grid/grid.html
+https://lash26.github.io/paige/grid.html
