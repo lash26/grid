@@ -1,0 +1,220 @@
+/**CSS for grid**/
+@media screen and (min-width:240px) {/*media for 270px starts here*/
+              h1{
+                color:hsl(179, 62%, 43%);
+                font-size: 30px;
+                margin-left: 10px;
+              }
+p{
+    color:hsl(201, 9%, 63%) ;
+    font-size: 12px;
+    margin-left: 10px;
+ }
+body{
+     background-color: rgb(238, 237, 237);
+     }
+
+#join {
+         background-color: white;
+         height: 200px;
+         width: 90%;
+         margin-left: 5%;
+         margin-right: 5%;
+         font-size: 17px;
+         line-height: 150%;
+         padding-top: 10px;
+         border-top-left-radius: 8px;
+         border-top-right-radius: 8px;
+            }  
+.back{
+    color:hsl(71, 73%, 54%); 
+    font-size: 14px;
+    margin-left: 10px;
+            }
+ #why{
+    background-color:hsl(179, 62%, 43%);
+    height: 250px;
+    width: 90%;
+    margin-left: 5%;
+    line-height: 150%;
+    margin-right: 5%;
+    padding-top: 10px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+            }
+ 
+#why li{
+    color: white;
+    list-style-type: none;
+    font-size: 12px;
+}
+h2{
+    margin-left: 10px;
+    color: white;
+}
+#sub {
+    background-color: rgb(31, 212, 191);
+    height: 200px;
+    width: 90%;
+    margin-right: 5%;
+    line-height: 150%;
+    margin-left:5%;
+    padding-top: 10px;
+}
+.fade{
+    color: rgba(255, 255, 255, 0.489);           
+        }
+
+        .large{
+            color: white;
+            font-size: large;
+            margin-left: 10px;
+        }
+        #sub p{
+            color: white;
+        }
+        #in input {
+            color: white;
+            background-color: hsl(71, 73%, 54%);
+            width: 70%;
+            padding: 2px;
+            font-size: x-large;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+        #in{
+            text-align: center;
+            border-radius: 3px;
+           }                    
+    }/* media for 270px ends here*/
+
+       @media screen and (min-width:400px){/*media for 400px and above starts here*/
+
+           p{
+             font-size:16px;
+           }
+           #join{
+               margin-top: 30px;
+               font-size:22px;
+               line-height: 120%;
+           }
+           .large{
+               font-size: xx-large;
+           }
+           #why li{
+               font-size: 17px;
+           }
+           .back{
+               font-size: 18px;
+           }
+       }/*400px media ends here*/
+
+        @media screen and (min-width:500px){/*media for 500px starts here*/
+            p{
+                font-size: 18px;
+            }
+            #join{
+                margin-top: 30px;
+                font-size: 23px;
+                line-height: 120%;
+            }
+            .large{
+                font-size: xx-large;
+            }
+            #why li{
+                font-size: 19px;
+            }
+             .back{
+                font-size: 18px;
+            }
+            #in{
+                margin-top: -4px;
+            }
+        }/*media for 500px ends here*/
+
+
+
+            @media screen and (min-width:700px) {  /* for 700px and above starts here*/
+h1 {
+     color:hsl(179, 62%, 43%);
+     font-size: 45px;
+     margin-left: 50px;
+}          
+            
+ body{
+             background-color: rgb(238, 237, 237);
+}
+#join {
+    background-color: white;
+    height: 210px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 110px;
+}
+.back{
+    color:  hsl(71, 73%, 54%);
+    font-size: 25px;
+    margin-left: 50px;
+}
+p{
+    color:hsl(201, 9%, 63%) ;
+    font-size: 17px;
+    margin-left: 50px;
+}
+#why{
+    float: right;
+    background-color:hsl(179, 62%, 43%);
+    height: 300px;
+    width: 35%;
+    border: 0px;
+    margin-left: 0px;
+    line-height: 150%;
+    margin-right: 15%;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+}
+#why li{
+    color: white;
+    list-style-type: none;
+    font-size: 17px;
+}
+h2{
+    margin-left: 50px;
+    color: white;
+}
+#sub {
+    float: left;
+    background-color: rgb(31, 212, 191);
+    height: 300px;
+    width: 35%;
+    border: 0px;
+    margin-right: 0px;
+    line-height: 150%;
+    margin-left:15%;
+    border-bottom-left-radius: 8px;
+}
+.fade{
+    color: rgba(255, 255, 255, 0.489);
+}
+.large{
+    color: white;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+#sub p{
+    color: white;
+}
+#in input {
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    width: 70%;
+    padding: 5px;
+    font-size: xx-large;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+#in{
+    text-align: center;
+    border-radius: 3px;
+   }            
+} /*for 700px and above ends here*/
