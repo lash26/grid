@@ -25,6 +25,7 @@ body{
          padding-top: 10px;
          border-top-left-radius: 8px;
          border-top-right-radius: 8px;
+         padding-bottom:5px
             }  
 .back{
     color:hsl(71, 73%, 54%); 
@@ -97,6 +98,7 @@ h2{
                margin-top: 30px;
                font-size:22px;
                line-height: 120%;
+               paddiing-bottom:6px
            }
            .large{
                font-size: xx-large;
@@ -116,7 +118,8 @@ h2{
             #join{
                 margin-top: 30px;
                 font-size: 23px;
-                line-height: 120%;
+                line-height: 100%;
+                padding-bottom:6px
             }
             .large{
                 font-size: xx-large;
